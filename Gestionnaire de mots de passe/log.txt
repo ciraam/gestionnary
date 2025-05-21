@@ -1,0 +1,97 @@
+testtest  |  IP : ::1
+lol  |  IP : ::1
+tentative connexion   |  date:  12.09.2024 09:35:51  |  user:  admin  |  IP : ::1
+tentative connexion   |  date:  12.09.2024 09:36:57  |  user:  testTESTTTTTT  |  IP : ::1
+tentative connexion   |  date:  12.09.2024 09:37:25  |  user:  test2  |  IP : ::1
+tentative connexion   |  date:  12.09.2024 09:37:37  |  user:  admin  |  IP : ::1
+connexion   |  date:  12.09.2024 09:38:06  |  user:  admin  |  IP : ::1
+tentative connexion   |  date:  12.09.2024 09:39:29  |  user:  test2  |  IP : ::1
+connexion   |  date:  12.09.2024 09:40:22  |  user:  test2  |  IP : ::1
+tentative création de compte   |  date:  12.09.2024 09:44:17  |  IP :  ::1
+tentative création de compte   |  date:  12.09.2024 09:44:20  |  IP :  ::1
+connexion   |  date:  12.09.2024 10:21:05  |  user:  test2  |  IP : ::1
+tentative connexion   |  date:  13.09.2024 10:24:48  |  user:  admin  |  IP : ::1
+tentative connexion   |  date:  13.09.2024 10:24:55  |  user:  admin  |  IP : ::1
+connexion   |  date:  13.09.2024 10:25:03  |  user:  test2  |  IP : ::1
+connexion   |  date:  13.09.2024 19:42:06  |  user:  test2  |  IP : ::1
+connexion   |  date:  13.09.2024 20:48:25  |  user:  test2  |  IP : ::1
+tentative connexion   |  date:  13.09.2024 20:51:41  |  user:  admin  |  IP : ::1
+connexion   |  date:  13.09.2024 20:51:55  |  user:  test2  |  IP : ::1
+connexion   |  date:  14.09.2024 04:22:54  |  user:  test2  |  IP : ::1
+connexion   |  date:  14.09.2024 04:52:56  |  user:  test2  |  IP : ::1
+Modification d'accès mdp réussite  |  date:  14.09.2024 05:51:19  |  user:  1  |  idAccès:  7  |  site:  1  |  lien:  1  |  identifiant:  1  |  mdp:  1  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  14.09.2024 05:59:05  |  user:  test2  |  IP : ::1
+Modification d'accès mdp réussite  |  date:  14.09.2024 05:59:13  |  user:  3  |  idAccès:  14  |  site:  3  |  lien:  3  |  identifiant:  3  |  mdp:  3  |  IP : ::1
+Suppression d'accès mdp échouée  |  date:  14.09.2024 05:59:21  |  user:  test2  |  idAccès:  14  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  14.09.2024 06:05:35  |  user:  test2  |  cause:  404  |  IP : ::1
+Ajout d'accès mdp réussit  |  date:  14.09.2024 06:05:44  |  user:  test2  |  site:  2  |  lien:  2  |  identifiant:  2  |  mdp:  2  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  14.09.2024 06:06:07  |  user:  test2  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:39:59  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:40:23  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:41:44  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:41:59  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:50:47  |  cause:  code%20BTS  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:51:12  |  cause:  code%20BTS  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:52:03  |  cause:  code%20BTS  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:53:07  |  cause:  code%20BTS  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:54:41  |  cause:  ?action=inscription  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:54:46  |  cause:  Array  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:57:03  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:57:49  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 02:58:39  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:01:02  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:01:35  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:01:45  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:02:08  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:02:24  |  cause:  Différents mdp  |  IP : ::1
+Inscription réussite  |  date:  15.09.2024 03:03:29  |  user:    |  nom:  test3  |  prénom:  test3  |  identifiant:  test3  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:05:28  |  cause:  Différents mdp  |  IP : ::1
+Inscription réussite  |  date:  15.09.2024 03:05:59  |  nom:  test4  |  prénom:  test4  |  identifiant:  test4  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 03:06:17  |  user:  test3  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 03:06:30  |  user:  test2  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:10:40  |  cause:  Différents mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:10:56  |  cause:  Faible mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:11:18  |  cause:  Faible mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:12:34  |  cause:  Faible mdp  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 03:36:48  |  cause:  Faible mdp  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:    |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:13:57  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:15:13  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:16:24  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:16:29  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:16:33  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:16:39  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:17:20  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:19:34  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 04:23:10  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:29:11  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:29:13  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:29:18  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:29:34  |  cause:  Champs vide(s)  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 04:29:40  |  cause:  Champs vide(s)  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 04:31:15  |  user:  test2  |  IP : ::1
+Email de réinitialisation non envoyé  |  date:  15.09.2024 05:10:24  |  login:  test2  |  mail:  altair89@hotmail.fr  |  cause:  404  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 05:11:02  |  user:  test2  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:23:20  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:33:16  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:36:43  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:37:10  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:41:23  |  cause:  Champs vide(s)  |  IP : ::1
+Inscription échouée  |  date:  15.09.2024 05:42:23  |  cause:  Champs vide(s)  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 06:04:08  |  user:  test2  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 06:29:56  |  user:  test2  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  15.09.2024 07:17:27  |  user:  test2  |  cause:  Champs vide(s)  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  15.09.2024 07:21:44  |  user:  test2  |  cause:  Champs vide(s)  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  15.09.2024 07:23:54  |  user:  test2  |  cause:  Champs vide(s)  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  15.09.2024 08:11:07  |  user:  test2  |  cause:  Champs vide(s)  |  IP : ::1
+Connexion réussite  |  date:  15.09.2024 20:26:09  |  user:  test2  |  IP : ::1
+Modification d'accès mdp échouée  |  date:  15.09.2024 20:33:33  |  user:  1  |  idAccès:  7  |  cause:  Faible mdp  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:    |  user:  test2  |  cause:  Faible mdp  |  IP : ::1
+Ajout d'accès mdp échoué  |  date:  15.09.2024 20:37:54  |  user:  test2  |  cause:  Faible mdp  |  IP : ::1
+Connexion réussite  |  date:  16.09.2024 14:13:18  |  user:  test2  |  IP : ::1
+Suppression d'accès mdp réussite  |  date:  16.09.2024 14:27:12  |  user:  test2  |  idAccès:  15  |  IP : ::1
+Suppression d'accès mdp réussite  |  date:  16.09.2024 14:27:14  |  user:  test2  |  idAccès:  7  |  IP : ::1
+Ajout d'accès mdp réussit  |  date:  16.09.2024 14:29:25  |  user:  test2  |  site:  youtube.fr  |  lien:  https://www.test.fr  |  identifiant:  test  |  IP : ::1
+Connexion réussite  |  date:  23.09.2024 00:58:53  |  user:  test2  |  IP : ::1
+Modification d'accès mdp réussite  |  date:  23.09.2024 01:01:02  |  user:  2  |  idAccès:  15  |  site:  2  |  lien:  https://www.ktktk.fr  |  identifiant:  2  |  IP : ::1
+Connexion réussite  |  date:  21.05.2025 20:29:24  |  user:  test2  |  IP : ::1
