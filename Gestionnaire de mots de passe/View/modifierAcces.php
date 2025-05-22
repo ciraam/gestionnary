@@ -5,9 +5,17 @@ $utilisateur = $_GET['user'];
 $acces = new AccesManager();
 $mdp = new MdpManager();
 $accesMod = $acces -> getAccesById($utilisateur, $id);
+$histoAcces = $acces -> getHistoAccesById($utilisateur, $id);
 $mdp -> dechiffrerAsy($accesMod['mdp']);
 $mdpDechiffrerAsy = $mdp -> dechiffrerAsy($accesMod['mdp']);
+$time = new DateTime();
+$test = $time -> format('d/m/Y H:i:s');
 
+echo "<table><caption>Historique des modifications</caption><tbody>";
+foreach($histoAcces as $histo) {
+    echo "<tr><td>- Modifié le ".$histo['modification']." ;</td></tr>";
+}
+echo "</tbody></table></br>";
 ?>
 
 <form method="post">
