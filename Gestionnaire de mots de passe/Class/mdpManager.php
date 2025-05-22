@@ -43,8 +43,6 @@ Class MdpManager {
         return $mdpHache;
     }
 
-    // faire des méthodes pour le chiffrement asymétrique afin de pouvoir chiffrer les mdp d'accès
-
     function testerMdp($mdp){
         $compteur = 0;
         // Expression régulière pour détecter un mot de passe faible

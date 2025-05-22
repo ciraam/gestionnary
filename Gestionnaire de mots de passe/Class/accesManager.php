@@ -63,6 +63,14 @@ Class AccesManager {
         $requete -> bindParam(':login', $login);
         $requete -> bindParam(':mdp', $mdp);
         $donnees = $requete -> execute();
+
+        $time = new DateTime();
+        $now = $time -> format('d/m/Y H:i:s');
+        $sql2 = "INSERT INTO historique (mdp_id, utilisateur_histo, modification) VALUES (".$donnees['id'].", :utilisateur, NOW())";
+        $requete2 = $this -> bd -> prepare($sql2);
+        $requete2 -> bindParam(':utilisateur', $utilisateur);
+        $requete2 -> execute();
+        
         return $donnees;
     }
 
@@ -78,7 +86,7 @@ Class AccesManager {
     function modifierAcces($utilisateur, $id, $site, $lien, $identifiant, $mdp) {
         $sql = "UPDATE mdp SET site = :site, lien = :lien, identifiant = :identifiant, mdp = :mdp WHERE utilisateur = :utilisateur AND id = :id";
         $requete = $this -> bd -> prepare($sql);
-        $donnees = $requete ->execute([
+        $donnees = $requete -> execute([
             ':site' => $site,
             ':lien' => $lien,
             ':identifiant' => $identifiant,
@@ -86,6 +94,17 @@ Class AccesManager {
             ':utilisateur' => $utilisateur,
             ':id' => $id
         ]);
+        
+
+        $time = new DateTime();
+        $now = $time -> format('d/m/Y H:i:s');
+        $sql2 = "INSERT INTO historique (mdp_id, utilisateur_histo, modification) VALUES (:id, :utilisateur, NOW())";
+        $requete2 = $this -> bd -> prepare($sql2);
+        $requete2 -> execute([
+            ':utilisateur' => $utilisateur,
+            ':id' => $id
+        ]);
+
         return $donnees;
     }
 
@@ -129,6 +148,14 @@ Class AccesManager {
         $requete = $this -> bd -> prepare($sql);
         $requete -> execute([':utilisateur' => $utilisateur, ':id' => $id]);
         $donnees = $requete -> fetch();
+        return $donnees;
+    }
+
+    function getHistoAccesById($utilisateur, $id) {
+        $sql = "SELECT * FROM historique WHERE utilisateur_histo = :utilisateur AND mdp_id = :id";
+        $requete = $this -> bd -> prepare($sql);
+        $requete -> execute([':utilisateur' => $utilisateur, ':id' => $id]);
+        $donnees = $requete -> fetchAll();
         return $donnees;
     }
 
